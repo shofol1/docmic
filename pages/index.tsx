@@ -3,6 +3,10 @@ import Head from "next/head";
 import Hero from "../components/Hero/Hero";
 import Summary from "../components/SummaryDetails/Summary";
 import Service from "../components/Service/Service";
+import Features from "../components/Features/Features";
+import FAQ from "../components/FAQ/FAQ";
+import Testimonial from "../components/Testimonial/Testimonial";
+import Footer from "../components/Footer/Footer";
 export default function index() {
   return (
     <>
@@ -25,6 +29,10 @@ export default function index() {
       <Hero />
       <Summary />
       <Service />
+      <Features />
+      <FAQ />
+      <Testimonial />
+      <Footer />
     </>
   );
 }

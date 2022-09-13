@@ -1,3 +1,6 @@
+.navbar {
+  background-image: linear-gradient(#e3f0f6, #e7f4f5);
+}
 .navbar a {
   color: #575757;
   font-size: 16px;
@@ -12,4 +15,20 @@
 }
 .navbar a:focus {
   color: #2d89ff;
+}
+.logoLeft {
+  font-size: 22px;
+  font-weight: 700;
+  color: #2d89ff;
+}
+.logoRight {
+  font-size: 22px;
+  font-weight: 700;
+  color: #642dff;
+}
+.freeBtn {
+  width: 170px;
+  background: #2d89ff;
+  border-radius: 5px;
+  color: #fff !important;
 }

@@ -14,7 +14,17 @@ a {
 * {
   box-sizing: border-box;
 }
+.slick-prev:before {
+  content: "<";
+  color: red;
+  font-size: 30px;
+}
 
+.slick-next:before {
+  content: ">";
+  color: red;
+  font-size: 30px;
+}
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700;800&display=swap");
 * {
   font-family: "Inter", sans-serif;

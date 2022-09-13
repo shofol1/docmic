@@ -48,3 +48,54 @@
   border-radius: 50px;
   margin: 20px 0;
 }
+.headingCount {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  /* 2logo */
+
+  color: #642dff;
+}
+.paraCount {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+
+  color: #575757;
+}
+.wrapper {
+  position: relative;
+}
+.wrapper .abs {
+  position: absolute;
+  top: -150px;
+  left: 100px;
+}
+.btnAbs {
+  position: relative;
+}
+.btnInfo {
+  position: absolute;
+  top: -13px;
+  width: 199px;
+  left: 311px;
+}
+.addDoctorWrapper {
+  position: relative;
+}
+.addDoctor {
+  position: absolute;
+  top: 0px;
+  left: 724px;
+}
+.counterWidth {
+  width: 151px;
+}
+.counterCountWrapper {
+  margin-left: -63px;
+}
+.couterCount {
+  width: 506px;
+}

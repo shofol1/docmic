@@ -7,8 +7,8 @@ export default function Header() {
       >
         <div className="container">
           <a className="navbar-brand" href="#">
-            <span>Doc</span>
-            <span>mic</span>
+            <span className={`${Styles.logoLeft}`}>Doc</span>
+            <span className={`${Styles.logoRight}`}>mic</span>
           </a>
           <button
             className="navbar-toggler"
@@ -54,7 +54,7 @@ export default function Header() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className={`nav-link ${Styles.freeBtn}`} href="#">
                   Free Consulation
                 </a>
               </li>

@@ -12,3 +12,68 @@
   text-align: center;
   color: #1e1e1e;
 }
+.serviceCol {
+  width: 236px;
+  height: 152px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(55, 55, 55, 0.08);
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.serviceHeading {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #1e1e1e;
+}
+.serviceIcon {
+  color: #642dff;
+  width: 23.86px;
+  height: 24px;
+}
+.servicePragaraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.005em;
+  color: #575757;
+}
+.serviceBtn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1e1e1e;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.serviceCol:hover .serviceIcon {
+  color: #2d89ff;
+}
+.colCardContainer {
+  margin-top: 28px;
+}
+.experience {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #642dff;
+}
+.headingEx {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: justify;
+  color: #1e1e1e;
+}
+.paragaraphEx {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: justify;
+  letter-spacing: -0.005em;
+  color: #575757;
+}
+.wrapper {
+  background-image: linear-gradient(#e3f0f6, #f5ecf7);
+}
