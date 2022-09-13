@@ -1,0 +1,50 @@
+.btnInfo {
+  background-color: #642dff;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  padding: 15px 20px 15px 20px;
+}
+.btnInfo:hover {
+  background-color: #2d88ffc4 !important;
+}
+.addDoctor {
+  width: 229px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+.addDoctor p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  position: relative;
+}
+.addDoctor .image {
+  object-fit: cover;
+  width: 73% !important;
+  height: 40px !important;
+  min-width: 73% !important;
+}
+.gradient1 {
+  width: 189px;
+  height: 14px;
+  background: linear-gradient(
+    90deg,
+    rgba(45, 137, 255, 0.57) 0%,
+    rgba(45, 137, 255, 0) 100%
+  );
+  border-radius: 50px;
+  margin: 20px 0;
+}
+.gradient2 {
+  width: 189px;
+  height: 14px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(45, 137, 255, 0.3) 0%,
+    rgba(45, 137, 255, 0) 100%
+  );
+  border-radius: 50px;
+  margin: 20px 0;
+}

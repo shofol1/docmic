@@ -1,0 +1,15 @@
+.navbar a {
+  color: #575757;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.navbar a:hover {
+  color: black;
+}
+.navbar a:active {
+  color: #2d89ff;
+}
+.navbar a:focus {
+  color: #2d89ff;
+}
